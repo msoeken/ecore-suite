@@ -1,0 +1,12 @@
+@namespace(uri="List", prefix="List")
+
+package List;
+
+class Storage {
+    ref Item[*] items;
+}
+
+class Item {
+    attr EInt value;
+    ref Item next;
+}
