@@ -1,0 +1,12 @@
+@namespace(uri="Tree", prefix="Tree")
+
+package Tree;
+
+class Storage {
+    ref Node[*] nodes;
+}
+
+class Node {
+    attr EInt value;
+    ref Node[*] children;
+}
